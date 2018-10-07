@@ -2,22 +2,198 @@
 <html>
 <head>
 	<meta charset="utf-8">
-    <title>THE DORK HEROES!!!- choose your adventure!!!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <!-- BOOTSTRAP CSS -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.css">
+    <!-- MY CSS -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/animate.css">
+    <!-- JQUERY CDN -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.js"
+      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous">
+    </script>
+    <!-- JPOPPER -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <!-- Boostrap JS -->
+    <script type="text/javascript" src="./assets/js/bootstrap.js"></script>
+    <!-- GOOGLE FONT -->
+  <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+  <title>ULTIMATE COMIC GEEK TEST</title>
 </head>
-
 <body>
-    <div id="game-text">
-        <p>Welcome to Dork heroes!</p>
-        <p>STATE your SCENARIO</p>
-        <p>Choose your HERO!!!!</p>
 
-    </div>
-    <input id="heroinput" placeholder="Please type your command.."></input>
+<div class="container-fluid main-container">
+      
+      <div class="container-fluid bgcolor text-white p-5 mb-5 text-center"><h1 class="animated zoomInLeft">How Much Do you know Hero Logos from Comics?</h1></div>
 
-    <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
-    <script type="text/javascript" src="rooms.js"></script>
-    <script type="text/javascript" src="script.js"></script>
+  <div class="container-fluid col-lg-6 offset-lg-3 animated bounceInLeft">
+      
+      
 
+      <form id = "quiz" name = "quiz">
+
+
+       
+      <p class = "questions">1. <img src="./assets/img/ans01.jpg" class="questionIMG"></p>
+      <input type = "radio" id = "mc" name = "question1" value = "HellBoy"> HellBoy (Dark Horse comics)<br>
+      <input type = "radio" id = "mc" name = "question1" value = "Red Hood"> Red Hood (DC comics)<br>
+      <input type = "radio" id = "mc" name = "question1" value = "Red Sonja"> Red Sonja (BOOM! comics)<br>
+      <hr class="style5">
+
+      <p class = "questions">2. <img src="./assets/img/ans02.png" class="questionIMG"></p>
+      <input type = "radio" id = "mc" name = "question2" value = "Batman Beyond"> Batman Beyond (DC comics)<br>
+      <input type = "radio" id = "mc" name = "question2" value = "Batman"> Batman (DC comics)<br>
+      <input type = "radio" id = "mc" name = "question2" value = "Batgirl"> Batgirl (DC comics)<br>
+      <hr class="style5">
+
+      <p class = "questions">3. <img src="./assets/img/ans03.jpg" class="questionIMG"></p>
+      <input type = "radio" id = "mc" name = "question3" value = "Deathstroke"> Deathstroke (DC comics)<br>
+      <input type = "radio" id = "mc" name = "question3" value = "The Comedian"> The Comedian (Watchmen - DC comics)<br>
+      <input type = "radio" id = "mc" name = "question3" value = "Bullseye"> Bullseye (Marvel Comics)<br>
+      <hr class="style5">
+
+      <p class = "questions">4. <img src="./assets/img/ans04.jpg" class="questionIMG"></p>
+      <input type = "radio" id = "mc" name = "question4" value = "Spawn"> Spawn (Image Comics)<br>
+      <input type = "radio" id = "mc" name = "question4" value = "Spiderman 2099"> Spiderman 2099 (Marvel Comics)<br>
+      <input type = "radio" id = "mc" name = "question4" value = "Lady Deadpool"> Lady Deadpool (Marvel Comics)<br>
+      <hr class="style5">
+
+      <p class = "questions">5. <img src="./assets/img/ans05.png" class="questionIMG"></p>
+      <input type = "radio" id = "mc" name = "question5" value = "The Red Lantern Corps"> The Red Lantern Corps (DC comics)<br>
+      <input type = "radio" id = "mc" name = "question5" value = "The Green Lantern Corps"> The Green Lantern Corps (DC comics)<br>
+      <input type = "radio" id = "mc" name = "question5" value = "The Sinestro Corps"> The Sinestro Corps (DC comics)<br>
+      <hr class="style5">
+
+      <p class = "questions">6. <img src="./assets/img/ans06.png" class="questionIMG"></p>
+      <input type = "radio" id = "mc" name = "question6" value = "Mech Cadet Yu"> Mech Cadet Yu (BOOM! Comics)<br>
+      <input type = "radio" id = "mc" name = "question6" value = "Robotech"> Robotech (DC comics)<br>
+      <input type = "radio" id = "mc" name = "question6" value = "Unicron"> Unicron (The Transformers - IDW publishing)<br>
+      <hr class="style5">
+
+      <p class = "questions">7. <img src="./assets/img/ans07.jpg" class="questionIMG"></p>
+      <input type = "radio" id = "mc" name = "question7" value = "Super Girl"> Super Girl (DC comics)<br>
+      <input type = "radio" id = "mc" name = "question7" value = "Superman"> Superman (DC comics)<br>
+      <input type = "radio" id = "mc" name = "question7" value = "Bizarro"> Bizarro (DC comics)<br>
+      <hr class="style5">
+
+      <p class = "questions">8. <img src="./assets/img/ans08.png" class="questionIMG"></p>
+      <input type = "radio" id = "mc" name = "question8" value = "Cobra"> Cobra (G.I. Joe - IDW publishing)<br>
+      <input type = "radio" id = "mc" name = "question8" value = "Conan the Barbarian"> Conan the Barbarian (Dark Horse comics)<br>
+      <input type = "radio" id = "mc" name = "question8" value = "The Predacons"> The Predacons (The Transformers - IDW publishing)<br>
+      <hr class="style5">
+
+      <p class = "questions">9. <img src="./assets/img/ans09.png" class="questionIMG"></p>
+      <input type = "radio" id = "mc" name = "question9" value = "Gambit"> Gambit (X-men - Marvel comics)<br>
+      <input type = "radio" id = "mc" name = "question9" value = "The Joker"> The Joker (DC comics)<br>
+      <input type = "radio" id = "mc" name = "question9" value = "Rorschach"> Rorschach (Watchmen - DC comics)<br>
+      <hr class="style5">
+
+      <p class = "questions">10. <img src="./assets/img/ans10.png" class="questionIMG"></p>
+      <input type = "radio" id = "mc" name = "question10" value = "Green Lantern"> Green Lantern (DC comics)<br>
+      <input type = "radio" id = "mc" name = "question10" value = "HULK"> HULK (Marvel comics)<br>
+      <input type = "radio" id = "mc" name = "question10" value = "Green Hornet"> Green Hornet (Dynamite comics)<br>
+      <hr class="style5">
+
+      <!-- SUBMIT -->
+      <input id = "button" type = "button" value = "I'm finished!" onclick = "check();">
+
+
+      </form>
+
+
+  <div id = "after_submit">
+    <p id = "number_correct"></p>
+    <p id = "message"></p>
+    <img id = "picture">
+  </div>
+
+</div>
+
+<!-- HIDDEN -->
+
+
+</div>
+
+
+<script type="text/javascript" src="./assets/js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript">
+
+const check = () => {
+
+  let question1 = document.quiz.question1.value;
+  let question2 = document.quiz.question2.value;
+  let question3 = document.quiz.question3.value;
+  let question4 = document.quiz.question4.value;
+  let question5 = document.quiz.question5.value;
+  let question6 = document.quiz.question6.value;
+  let question7 = document.quiz.question7.value;
+  let question8 = document.quiz.question8.value;
+  let question9 = document.quiz.question9.value;
+  let question10 = document.quiz.question10.value;
+
+  let correct = 0;
+
+//QUESTIONS
+  if (question1 == "HellBoy") {
+    correct++;
+  }
+  if (question2 == "Batgirl") {
+    correct++;
+  } 
+  if (question3 == "Bullseye") {
+    correct++;
+  }
+  if (question4 == "Spawn") {
+    correct++;
+  }
+  if (question5 == "The Red Lantern Corps") {
+    correct++;
+  } 
+  if (question6 == "Unicron") {
+    correct++;
+  }
+  if (question7 == "Bizarro") {
+    correct++;
+  }
+  if (question8 == "Conan the Barbarian") {
+    correct++;
+  } 
+  if (question9 == "Gambit") {
+    correct++;
+  }
+  if (question10 == "HULK") {
+    correct++;
+  }  
+
+  let pictures = ["./assets/img/win.png", "./assets/img/meh.png", "./assets/img/lose.png"];
+  let messages = ["WOW NICE! Chuck Norris congratulates you!!!", "Hmm...not bad, keep reading comics ya Geek", "Tsk Tsk, You need to read more Comics...here's Mason the Nerd to help you read your comics."];
+  let score;
+
+
+//FAIL
+  if (correct >= 0 && correct <= 4) {
+    score = 2;
+  }
+
+  if (correct >= 5 && correct <= 8) {
+    score = 1;
+  }
+//PERFECT
+  if (correct > 8 && correct <= 10) {
+    score = 0;
+  }
+
+  document.getElementById("after_submit").style.visibility = "visible";
+
+  document.getElementById("message").innerHTML = messages[score];
+  document.getElementById("number_correct").innerHTML = "You got " + correct + " correct.";
+  document.getElementById("picture").src = pictures[score];
+  }
+  
 
 </script>
 </body>
